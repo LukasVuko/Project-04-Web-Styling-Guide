@@ -1,3 +1,47 @@
 // -----------------------------------------------------------
 // Variables - Fonts, breakpoints, colors
 // -----------------------------------------------------------
+
+// Fonts ---------------------------------
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+$font-stack-primary: 'Open Sans', sans-serif;
+$txt-align: left;
+$txt-align-ctr: center;
+$font-bold: bold;
+
+// Colors - Layout -----------------------
+
+$color-background: rgb(255, 255, 255);
+$color-trim: rgb(127, 222 , 194);
+
+// Color - Fonts -------------------------
+$color-font-default: rgb(128, 128, 128);
+$color-font-headline: rgb(127, 222, 194);
+$color-font-link: rgb(123, 220, 248);
+
+// Color - Navigation and Buttons --------
+$color-nav-default: rgb(98, 98, 98);
+$color-nav-active: rgb(255, 255, 255);
+
+// Buttons -------------------------------
+$btn--default: rgb(121, 219, 248);
+$btn--success: rgb(126, 201, 137);
+$btn--error: rgb(214, 123, 125);
+$btn--warning: rgb(237, 127, 95);
+$btn--info: rgb(142, 125, 188);
+
+
+// Grid Colors ---------------------------
+$grid__col--3: rgb(215, 181, 234);
+$grid__col--4: rgb(151, 228, 250);
+$grid__col--5: rgb(154, 214, 165);
+$grid__col--6: rgb(93, 169, 199);
+$grid__col--7: rgb(255, 162, 164);
+$grid__col--8: rgb(240, 163, 138);
+$grid__col--12: rgb(153, 229, 210);
+
+// Breakpoints ----------------------------
+$break-sm: 575px;
+$break-m: 768px;
+$break-l: 992px;
+
