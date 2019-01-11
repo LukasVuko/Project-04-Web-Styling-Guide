@@ -3,3 +3,24 @@
 // -----------------------------------------------------------
 
 // .nav__item
+
+.nav__item {
+    border-radius: 5px;
+    padding: 15px 0;
+    margin: 0 auto;
+    background-color: white;
+    transition-property: background-color, color;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    a {
+        text-decoration: none;
+        color: $color-nav-default;
+        display: block;
+    }
+    &:hover {
+        background-color: $color-font-headline;
+    }
+    &:hover a {
+        color: $color-nav-hover;
+    }
+}

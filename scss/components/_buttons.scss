@@ -8,3 +8,25 @@
 // .btn--warning
 // .btn--info
 // .theme__colors
+
+.btn--default{
+    background-color: $btn--default;
+    @include buttons;
+}
+.btn--success {
+    background-color: $btn--success;
+    @include buttons;
+}
+.btn--error {
+    background-color: $btn--error;
+    @include buttons;
+}
+.btn--warning {
+    background-color: $btn--warning;
+    @include buttons;
+}
+.btn--info {
+    background-color: $btn--info;
+    @include buttons;
+}
+
