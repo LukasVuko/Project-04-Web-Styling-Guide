@@ -32,16 +32,20 @@ $btn--info: rgb(142, 125, 188);
 
 
 // Grid Colors ---------------------------
-$grid__col--3: rgb(215, 181, 234);
-$grid__col--4: rgb(151, 228, 250);
-$grid__col--5: rgb(154, 214, 165);
-$grid__col--6: rgb(93, 169, 199);
-$grid__col--7: rgb(255, 162, 164);
-$grid__col--8: rgb(240, 163, 138);
-$grid__col--12: rgb(153, 229, 210);
+$gcb3: rgb(215, 181, 234);
+$gcb4: rgb(151, 228, 250);
+$gcb5: rgb(154, 214, 165);
+$gcb6: rgb(93, 169, 199);
+$gcb7: rgb(255, 162, 164);
+$gcb8: rgb(240, 163, 138);
+$gcb12: rgb(153, 229, 210);
+
 
 // Breakpoints ----------------------------
 $break-sm: 575px;
-$break-m: 768px;
-$break-l: 992px;
+$break-lg: 992px;
 
+$breakpoints: (
+    'sm': 575px,
+    'lg': 992px,
+);
