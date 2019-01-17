@@ -16,6 +16,9 @@
   color: white;
   text-transform: uppercase;
   font-weight: bold;
+  @media (min-width: 768px) {
+    margin-right: 10px;
+  }
 }
 
 @mixin allgrid($backgroundcolor, $flex: 1) {
@@ -62,6 +65,10 @@
       flex: 2;
     }
   }
+}
+
+.centered .grid__col--7 {
+  width: 58.3%;
 }
 
 // Media queries

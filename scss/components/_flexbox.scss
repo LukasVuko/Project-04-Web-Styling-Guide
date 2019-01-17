@@ -52,12 +52,11 @@ ul {
     flex-direction: column;
     margin-bottom: 2.2em;
     @media (min-width: 768px) {
-      display: flex;
-      justify-content: space-between;
       flex-direction: row;
     }
   }
   &__col--3 {
+    width: 100%;
     @media (min-width: 768px) {
       margin-right: 1px;
     }
@@ -69,11 +68,15 @@ ul {
     }
   }
   &__col--12 {
-    margin: 0 auto;
+    display: flex;
     width: 95%;
+    flex-direction: column;
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-around;
+    }
   }
   &__col--4 {
-    margin-top: 4em;
     width: 100%;
     @media (min-width: 768px) {
       flex: 1;
@@ -82,6 +85,11 @@ ul {
   &__col--8 {
     @media (min-width: 768px) {
       flex: 2;
+    }
+  }
+  &__col--7 {
+    @media (min-width: 768px) {
+      flex-basis: 57.7464788732%;
     }
   }
 }
