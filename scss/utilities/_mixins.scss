@@ -28,7 +28,6 @@
   padding-bottom: 10px;
   border-radius: 10px;
   background-color: $backgroundcolor;
-  flex-basis: 100%;
   margin-top: 2px;
   margin-bottom: 2px;
   width: 100%;
@@ -60,6 +59,9 @@
     } @else if ($i == 7) {
       @include allgrid($gcb7);
       flex: 1.4;
+      @media (min-width: 768px) {
+        max-width: 58%;
+      }
     } @else if ($i == 8) {
       @include allgrid($gcb8);
       flex: 2;
