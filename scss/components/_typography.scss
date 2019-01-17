@@ -14,7 +14,7 @@
   padding: 1.4em;
   width: 90%;
   margin: 40px auto;
-  @media (min-width: 768px) {
+  @media (min-width: $break-med) {
     max-width: 1200px;
   }
 }

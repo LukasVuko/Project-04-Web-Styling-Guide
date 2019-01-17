@@ -16,7 +16,7 @@
   color: white;
   text-transform: uppercase;
   font-weight: bold;
-  @media (min-width: 768px) {
+  @media (min-width: $break-med) {
     margin-right: 10px;
   }
 }
@@ -32,7 +32,7 @@
   margin-bottom: 2px;
   width: 100%;
   flex: $flex;
-  @media (min-width: 768px) {
+  @media (min-width: $break-med) {
     margin-left: 4px;
     margin-right: 4px;
   }
@@ -60,7 +60,7 @@
       @include allgrid($gcb7);
       flex: 1.4;
       @media (min-width: 768px) {
-        max-width: 58%;
+        max-width: 58.33333333%;
       }
     } @else if ($i == 8) {
       @include allgrid($gcb8);
@@ -69,23 +69,19 @@
   }
 }
 
-.centered .grid__col--7 {
-  width: 58.3%;
-}
+// IGNOR Media queries
 
-// Media queries
-
-@mixin mq($break) {
-  @if $break == sm {
-    @media (max-width: $breakpoints, "sm") {
-      @content;
-    }
-  } @else if $break == lg {
-    @media (max-width: $breakpoints, "lg") {
-      @content;
-    }
-  }
-}
+// @mixin mq($break) {
+//   @if $break == sm {
+//     @media (max-width: $breakpoints, "sm") {
+//       @content;
+//     }
+//   } @else if $break == lg {
+//     @media (max-width: $breakpoints, "lg") {
+//       @content;
+//     }
+//   }
+// }
 
 // to recall the media query mixin, instead of using @media (max width: etc) - ust use @include mq(sm or lg)
 

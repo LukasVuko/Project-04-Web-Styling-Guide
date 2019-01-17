@@ -31,7 +31,7 @@
 // }
 
 .card {
-  @media (min-width: 768px) {
+  @media (min-width: $break-med) {
     padding-right: 50px;
   }
 }
@@ -51,19 +51,19 @@ ul {
     margin: 0 auto;
     flex-direction: column;
     margin-bottom: 2.2em;
-    @media (min-width: 768px) {
+    @media (min-width: $break-med) {
       flex-direction: row;
     }
   }
   &__col--3 {
     width: 100%;
-    @media (min-width: 768px) {
+    @media (min-width: $break-med) {
       margin-right: 1px;
     }
   }
   &__col--9 {
     width: 100%;
-    @media (min-width: 768px) {
+    @media (min-width: $break-med) {
       display: flex;
     }
   }
@@ -71,25 +71,20 @@ ul {
     display: flex;
     width: 95%;
     flex-direction: column;
-    @media (min-width: 768px) {
+    @media (min-width: $break-med) {
       flex-direction: row;
       justify-content: space-around;
     }
   }
   &__col--4 {
     width: 100%;
-    @media (min-width: 768px) {
+    @media (min-width: $break-med) {
       flex: 1;
     }
   }
   &__col--8 {
-    @media (min-width: 768px) {
+    @media (min-width: $break-med) {
       flex: 2;
-    }
-  }
-  &__col--7 {
-    @media (min-width: 768px) {
-      flex-basis: 57.7464788732%;
     }
   }
 }

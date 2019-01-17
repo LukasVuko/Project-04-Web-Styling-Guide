@@ -9,7 +9,7 @@
 .img--logo {
   margin: 0 auto;
   display: block;
-  @media (min-width: 768px) {
+  @media (min-width: $break-med) {
     margin-left: 0;
     margin-right: 1px;
   }

@@ -3,8 +3,8 @@
 // -----------------------------------------------------------
 
 // Fonts ---------------------------------
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-$font-stack-primary: 'Open Sans', sans-serif;
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+$font-stack-primary: "Open Sans", sans-serif;
 $txt-align: left;
 $txt-align-ctr: center;
 $font-bold: bold;
@@ -12,7 +12,7 @@ $font-bold: bold;
 // Colors - Layout -----------------------
 
 $color-background: rgb(255, 255, 255);
-$color-trim: rgb(127, 222 , 194);
+$color-trim: rgb(127, 222, 194);
 
 // Color - Fonts -------------------------
 $color-font-default: rgb(128, 128, 128);
@@ -30,7 +30,6 @@ $btn--error: rgb(214, 123, 125);
 $btn--warning: rgb(237, 127, 95);
 $btn--info: rgb(142, 125, 188);
 
-
 // Grid Colors ---------------------------
 $gcb3: rgb(215, 181, 234);
 $gcb4: rgb(151, 228, 250);
@@ -40,12 +39,5 @@ $gcb7: rgb(255, 162, 164);
 $gcb8: rgb(240, 163, 138);
 $gcb12: rgb(153, 229, 210);
 
-
 // Breakpoints ----------------------------
-$break-sm: 575px;
-$break-lg: 992px;
-
-$breakpoints: (
-    'sm': 575px,
-    'lg': 992px,
-);
+$break-med: 768px;
